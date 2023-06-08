@@ -13,7 +13,11 @@
 
 body {
   padding: 20px;
-  background-color: #EEF0F4;
+  background: 
+    linear-gradient(to right, lightgray 1px, transparent 1px),
+    linear-gradient(to bottom, lightgray 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: center;
 }
 
 main {
@@ -21,8 +25,12 @@ main {
 }
 
 h1 {
+  font-size: 6rem;
   text-align: center;
+  color:rgb(136, 74, 252);
+  text-shadow: 5px 5px black;
 }
+
 
 section {
   max-width: 900px;
@@ -30,7 +38,7 @@ section {
   border-radius: 4px 4px 5px 5px;
   border-top:none;
   outline:2.5px solid black;  
-  background-color: blueviolet;
+  background-color: rgb(134, 54, 247);
   margin: 0 auto 50px auto;
   position: relative;
   top: 0;
@@ -46,7 +54,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 1em auto;
+  margin: 2em auto 3em auto;
   padding: 0;
 }
 
@@ -55,7 +63,7 @@ li {
   border-radius: 4px 4px 5px 5px;
   border-top:none;
   outline:2.5px solid black;  
-  background-color: blueviolet;
+  background-color: rgb(136, 74, 252);
   color: white;
   box-shadow: 5px 5px black;
   cursor: pointer;
@@ -68,14 +76,52 @@ li:hover {
 }
 
 h2 {
-  font-size: ;
+  font-size: 6rem;
+  text-shadow:4px 4px black;
+  padding-right: 30px;
+  min-width: 310px;
 }
 
 h3 {
-  float: right;
+  margin-top: 15px;
+  font-size: 1.5rem;
 }
 
+.description {
+  max-width: 410px;
+}
+
+.sectiontopdiv {
+ display: flex;
+ justify-content: left;
+ margin-bottom: 10px;
+}
 
 p {
   margin: 0;
+  font-size: 1.2rem;
 }
+
+.creativevisual {
+  width:360px;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+}
+
+#creativediv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#creativediv figcaption {
+  text-align: center;
+  margin:5px;
+  font-size: .65rem;
+}
+
+#creativediv figure {
+  margin-left: 20px;
+}
+
+
+
