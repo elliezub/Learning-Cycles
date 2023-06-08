@@ -26,8 +26,6 @@ h1 {
 
 section {
   max-width: 900px;
-  margin: auto;
-  background-color: aquamarine;
   padding: 20px;
   border-radius: 4px 4px 5px 5px;
   border-top:none;
@@ -42,19 +40,39 @@ section {
 
 
 ul {
-  background-color: red;
+  max-width: 900px;
   text-decoration: none;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 1em 0;
+  margin: 1em auto;
   padding: 0;
 }
 
 li {
- background-color: blueviolet;
- 
+  padding: 7px;
+  border-radius: 4px 4px 5px 5px;
+  border-top:none;
+  outline:2.5px solid black;  
+  background-color: blueviolet;
+  color: white;
+  box-shadow: 5px 5px black;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+li:hover {
+  transform: translate(5px, 5px) scale(.98);
+  box-shadow: 0 0 black;
+}
+
+h2 {
+  font-size: ;
+}
+
+h3 {
+  float: right;
 }
 
 
