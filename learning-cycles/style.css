@@ -95,13 +95,16 @@ h4 {
 
 .description {
   max-width: 410px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 .sectiontopdiv {
  display: flex;
  justify-content: left;
- margin-bottom: 10px;
- margin-top: 20px;
+ margin: 80px auto 40px auto;
+ max-width: 900px;
+
 }
 
 .sectiontopdiv h2 {
@@ -130,10 +133,25 @@ p {
   border-radius: 4px 5px;
 }
 
-.dropdowndiv {
+.drop {
   display: none; 
   margin: 5px 0px;
   /* change display to none toggle on click */
+}
+
+.btn {
+  font-size: 1.2rem;
+  background-color: blueviolet;
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: inline;
+  cursor: pointer;
+}
+
+.active {
+  display: block;
 }
 
 .examplediv {
@@ -150,9 +168,15 @@ p {
   margin:10px;
 }
 
+.exampledivcontent h4 {
+  display: inline;
+}
+
 /* cycle 1 content */
 
-
+.cycle1 {
+  background-color: purple;
+}
 
 
 /* cycle 2 content */
@@ -162,20 +186,7 @@ p {
   box-shadow: 5px 5px black;
 }
 
-#creativediv {
-  display: flex;
-  justify-content: space-between;
-}
 
-#creativediv figcaption {
-  text-align: center;
-  margin:5px;
-  font-size: .65rem;
-}
-
-#creativediv figure {
-  margin-left: 20px;
-}
 
 
 @media (max-width: 700px) {
