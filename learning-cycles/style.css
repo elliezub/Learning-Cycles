@@ -88,6 +88,12 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4 {
+  font-size: 1.3rem;
+}
+
+/* general- header - intro */
+
 .description {
   max-width: 410px;
 }
@@ -100,9 +106,21 @@ h3 {
 
 p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
+.after-intro-text {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  border: 2.5px solid black;
+  padding: 20px;
+  border-radius: 4px 5px;
+}
+
+/* cycle 1 content */
+
+/* cycle 2 content */
 .creativevisual {
   width:360px;
   border-radius: 20px;
