@@ -37,7 +37,7 @@ section {
   padding: 20px;
   border-radius: 4px 4px 5px 5px;
   border-top:none;
-  outline:2.5px solid black;  
+  border: 2.5px solid black;
   background-color: rgb(134, 54, 247);
   margin: 0 auto 50px auto;
   position: relative;
@@ -45,6 +45,7 @@ section {
   color: white;
   box-shadow: 10px 10px black;
 }
+
 
 
 ul {
@@ -62,7 +63,7 @@ li {
   padding: 7px;
   border-radius: 4px 4px 5px 5px;
   border-top:none;
-  outline:2.5px solid black;  
+  border: 2.5px solid black;  
   background-color: rgb(136, 74, 252);
   color: white;
   box-shadow: 5px 5px black;
