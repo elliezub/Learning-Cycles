@@ -183,7 +183,38 @@ p {
 .creativevisual {
   width:360px;
   border-radius: 20px;
-  box-shadow: 5px 5px black;
+  border: 2px solid black;
+}
+
+.imgtxtdiv {
+  max-width: 850px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.after-text {
+  text-align: center;
+  border: 2.5px solid black;
+  padding: 20px;
+  border-radius: 4px 5px;
+  background-color: white;
+}
+
+.outline-text2 {
+  max-width: 300px;
+  border: 2.5px solid black;
+  padding: 2px;
+  border-radius: 4px 5px;
+}
+
+figcaption {
+  max-width: 340px;
+  text-align: center;
+  font-size: .8rem;
 }
 
 
