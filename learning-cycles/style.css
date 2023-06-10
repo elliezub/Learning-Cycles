@@ -75,6 +75,11 @@ li:hover {
   box-shadow: 0 0 black;
 }
 
+a {
+  text-decoration: none;
+  color:white;
+}
+
 h2 {
   font-size: 6rem;
   text-shadow:4px 4px black;
@@ -184,16 +189,17 @@ p {
   width:360px;
   border-radius: 20px;
   border: 2px solid black;
+  /* box-shadow: 5px 5px black; */
 }
 
 .imgtxtdiv {
   max-width: 850px;
-  margin: auto;
+  margin: 20px auto 60px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 
 .after-text {
