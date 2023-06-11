@@ -14,10 +14,11 @@
     <h1>Learning Cycles</h1>
     <nav>
       <ul>
-        <li>Intro</li>
-        <li><a href="#firstsection">1. Structure</a></li>
-        <li><a href="#secondsection">2. Explore</a></li>
-        <li>3. Project</li>
+        <li class="navbutton">Intro</li>
+        <li class="navbutton" id="structuretab"><a href="#firstsection">1. Structure</a></li>
+        <li class="navbutton" id="exploretab"><a href="#secondsection">2. Explore</a></li>
+        <li class="navbutton" id="createtab"><a href="#create">3. Create</a></li>
+        <li class="navbutton" id="resourcetab"><a href="#resources">Resources</a></li>
       </ul>
     </nav>
   </header>
@@ -54,22 +55,22 @@
       <br>
       <p>
         The concept of having a personal learning cycle definitely exists, but
-        I only figured out mine after I began learning Mandarin and coding. 
+        I only figured out mine after I began learning Mandarin and coding.
         I routinely get feedback like "you must be a
         fast learner!" or questions like "how do you plan your studies?". It got me thinking - what
-        am I doing differently? So I decided to share my process.
+        am I doing differently? So I decided to share my process.</p>
     </section>
 
     <!-- Consider change of style for this additional info -->
     <div class="outline-text">
       <div class="after-intro-text">
         <p>
-        With no experience in mandarin and only after learning for a about a
-        year I had achieved a relatively high level of fluency compared to my
-        peers, why? what am i doing differently that other people are not?
-        same with coding, although I'm not sure how my speed compares to
-        others, I still would like to share my process. Even if it helps just
-        one other person I would be happy. 😄
+          With no experience in mandarin and only after learning for a about a
+          year I had achieved a relatively high level of fluency compared to my
+          peers, why? what am i doing differently that other people are not?
+          same with coding, although I'm not sure how my speed compares to
+          others, I still would like to share my process. Even if it helps just
+          one other person I would be happy. 😄
         </p>
       </div>
     </div>
@@ -84,21 +85,24 @@
         about. If it works for subjects you don't like as much, that's great,
         but no guarantees!
       </p>
+      <div class="animation">
+    </div>
     </section>
-<!-- CYCLE 1 START -->
-      <div class="sectiontopdiv" id="firstsection">
-        <div class="h2div">
-          <h2>CYCLE 1</h2>
-        </div>
-        <div class="description">
-          <h3>structure</h3>
-          <p>
-            This cycle refers to the time where a person is
-            learning in a structured way.
-          </p>
-        </div>
+
+    <!-- CYCLE 1 START -->
+    <div class="sectiontopdiv" id="firstsection">
+      <div class="h2div">
+        <h2>CYCLE 1</h2>
       </div>
-      <section class="cycle1">
+      <div class="description">
+        <h3>structure</h3>
+        <p>
+          This cycle refers to the time where a person is
+          learning in a structured way.
+        </p>
+      </div>
+    </div>
+    <section class="cycle1">
       <p>
         Many developers can understand this cycle by thinking about learning on a
         platform like freeCodeCamp, Scrimba, or Codacademy. In regard to
@@ -106,30 +110,32 @@
         following some kind of predeterimined path, like a textbook. During
         this process you will be introduced to fundemental concepts essential
         to the topic you are learning about.
+      </p>
+    </section>
+
+    <div class="examplediv">
+      <div class="exampledivcontent exampledivcontenthtml dropheading">
+        <img class="downarrow" src="downarrow.svg" alt="arrow svg">
+        <h4>Learning CSS/HTML example</h4>
+        <img class="downarrow" src="downarrow.svg" alt="arrow svg">
+      </div>
+      <div class="drop dropdivhtml">
+
+        <p>
+          👩🏻‍💻 When I was doing this certification I really fell in loving with
+          coding at least I thought that's what I was doing with HTML and CSS 😆
+          During this time, I was following the specific tasks and assigments
+          they gave me. Thats basically it.
         </p>
-        </section>
-       <div class="examplediv">
-        <!-- insert dropdown arrow for example -->
-       <div class="exampledivcontent">
-        <h4>Learning CSS/HTML example:</h4>
-        <!-- replace with better dropdown button -->
-        <button class="btn dropdownbutton">👇</button>
-        <div class="drop dropdowndiv">
-          <p>
-        👩🏻‍💻 When I was doing this certification I really fell in loving with
-        coding at least I thought that's what I was doing with HTML and CSS 😆
-        During this time, I was following the specific tasks and assigments
-        they gave me. Thats basically it.
-          </p>
-        </div>
-        </div>
-      
-        <!-- next dropdown ex -->
-        <!-- insert dropdown arrow for example -->
+      </div>
+    </div>
+    <!-- next dropdown ex 
+         insert dropdown arrow for example 
+         <div class="examplediv">
         <div class="exampledivcontent">
         <h4>Learning Mandarin example:</h4>
-        <!-- replace with better dropdown button -->
-        <button class="btn dropdownbutton2">👇</button>
+         replace with better dropdown button 
+         <button class="btn dropdownbutton2">👇</button>
         <div class="drop dropdowndiv2">
           <p>
             🀄 This would look like following a textbook from the most basic
@@ -142,9 +148,10 @@
           </p>
         </div>
         </div>
-        </div>
-        <section class="cycle1 conclusion">
-        <!-- conclusion of cycle 1 -->
+        </div> -->
+    <section class="cycle1 conclusion">
+      <!-- conclusion of cycle 1 -->
+      <p>
         This process is very simple, and the first time you are in the
         structure cycle you should be able to spend quite a while in it,
         depending on how many hours you spend a day learning you could be here
@@ -160,20 +167,20 @@
         Then you move onto CYCLE 2
       </p>
     </section>
-<!-- CYCLE 2 START -->
-      <div class="sectiontopdiv">
-        <div class="h2div">
-          <h2>CYCLE 2</h2>
-        </div>
-        <div class="description">
-          <h3>explore</h3>
-          <p>
-            The main purpose of this cycle is to inspire a new sense of
-            motivation within yourself.
-          </p>
-        </div>
+    <!-- CYCLE 2 START -->
+    <div class="sectiontopdiv" id="secondsection">
+      <div class="h2div">
+        <h2>CYCLE 2</h2>
       </div>
-      <section class="cycle2">
+      <div class="description">
+        <h3>explore</h3>
+        <p>
+          The main purpose of this cycle is to inspire a new sense of
+          motivation within yourself.
+        </p>
+      </div>
+    </div>
+    <section class="cycle2">
       <p>
         Imagine you have been in cycle 1 studying JavaScript for a week and
         feel totally tired. You must need a break, it will be quite difficult
@@ -184,81 +191,228 @@
         <br /><br />
       </p>
       <!-- set link to puppy mind -->
-          <p>
-            The "puppy mind" describes the
-            tendency for the mind to get easily distracted and jump from one
-            thing to another, much like a playful puppy. This can lead to
-            difficulty in focusing on one task for an extended period of time.
-            <br /><br />
-            people mostly agree that we need to train/discipline the puppy mind, and
-            while I agree, there are some situations (like in cycle 2) that it
-            might be beneficial to let your puppy mind run rampant.
-          </p>
-       </section>  
-
-       <div class="imgtxtdiv">
-          <div class="outline-text2">
-            <div class="after-text">
-              <p>
-                The point of this cycle is to get a fresh perspective on learning,
-                maximize your input sources to stimulate creativity.
-              </p>
-            </div>
-          </div>
-        
-        <figure>
-          <img class="creativevisual" src="https://pbs.twimg.com/media/Fxt5cTJWAAUEIKl?format=jpg&name=large"
-            alt="creativity visual" />
-          <figcaption>
-            @george__mack's awesome visual that explains how this process
-            works
-          </figcaption>
-        </figure>
-      </div>
-      
-
-
-
-      <div class="examplediv">
-        <!-- insert dropdown arrow for example -->
-       <div class="exampledivcontent">
-        <h4>Learning JavaScript example:</h4>
-        <!-- replace with better dropdown button -->
-        <button class="btn dropdownbutton3">👇</button>
-        <div class="drop dropdowndiv3">
       <p>
+        The "puppy mind" describes the
+        tendency for the mind to get easily distracted and jump from one
+        thing to another, much like a playful puppy. This can lead to
+        difficulty in focusing on one task for an extended period of time.
         <br /><br />
-        👩🏻‍💻 So, when I first started learning JavaScript I was using
-        FreeCodeCamp, It was quite alright at first but got pretty confusing,
-        and although I was very motivated doing that at first I started
-        getting really tired. END OF CYCLE 1
-        <br /><br />
-        👩🏻‍💻 Then I started researcing a bunch of free resources which led me to
-        jsdares, W3Schools, and scrimba, I just let myself explore everthing.
-        js dares was fun, got a better feeling for JS, completed some lessons
-        on W3schools, and finally got to scrimba. which was great!! END OF
-        CYCLE 2
-        <br /><br />
-        👩🏻‍💻 BACK TO CYCLE 1, as I said, in the beginning you might not get to 3
-        right away, I started on scrimba which was great. I completed the
-        majority of the intro to JS course and felt motivated the whole time
-        BUT then I started getting demotivated when they switched teachers at
-        the very end of the course. What to do? I went back into exploration
-        mode. END OF CYCLE 1.
-        <br /><br />
-        👩🏻‍💻 CYCLE 2 start: this really only lasted a few hours, and was the
-        moment in which I really started feeling myself going through these 3
-        cycles. I thought, these resources for coding really need to be all in
-        one place, and maybe everyone can access them. So I decided to make a
-        PROJECT. (thats cycle 3 and will discuss next)
+        people mostly agree that we need to train/discipline the puppy mind, and
+        while I agree, there are some situations (like in cycle 2) that it
+        might be beneficial to let your puppy mind run rampant.
       </p>
-        </div>
-        </div>
-        </div>
-    
+    </section>
 
-    <section class="cycle3"></section>
+    <div class="imgtxtdiv">
+      <div class="outline-text2">
+        <div class="after-text">
+          <p>
+            The point of this cycle is to get a fresh perspective on learning,
+            maximize your input sources to stimulate creativity.
+          </p>
+        </div>
+      </div>
+
+      <figure>
+        <img class="creativevisual" src="https://pbs.twimg.com/media/Fxt5cTJWAAUEIKl?format=jpg&name=large"
+          alt="creativity visual" />
+        <figcaption>
+          <a id="george" href="https://twitter.com/george__mack" target="_blank">@george__mack</a>'s awesome visual that explains how this process
+          works
+        </figcaption>
+      </figure>
+    </div>
+    <div class="examplediv">
+      <!-- insert dropdown arrow for example -->
+      <div class="exampledivcontent exampledivcontentjs dropheading">
+        <!-- <button class="btn dropdownbutton3"> -->
+        <img class="downarrow" src="downarrow.svg" alt="arrow svg">
+        <h4>Learning JavaScript example</h4>
+        <img class="downarrow" src="downarrow.svg" alt="arrow svg">
+      </div>
+
+      <div class="drop dropdivjs">
+        <!-- <div class="dividerdiv">
+          <img class="dividersvg" src="divider.svg" alt="purple divider">
+          </div> -->
+        <p>
+          👩🏻‍💻 So, when I first started learning JavaScript I was using
+          FreeCodeCamp, It was quite alright at first but got pretty confusing,
+          and although I was very motivated doing that at first I started
+          getting really tired. END OF CYCLE 1
+          <br /><br />
+          👩🏻‍💻 Then I started researcing a bunch of free resources which led me to
+          jsdares, W3Schools, and scrimba, I just let myself explore everthing.
+          js dares was fun, got a better feeling for JS, completed some lessons
+          on W3schools, and finally got to scrimba. which was great!! END OF
+          CYCLE 2
+          <br /><br />
+          👩🏻‍💻 BACK TO CYCLE 1, as I said, in the beginning you might not get to 3
+          right away, I started on scrimba which was great. I completed the
+          majority of the intro to JS course and felt motivated the whole time
+          BUT then I started getting demotivated when they switched teachers at
+          the very end of the course. What to do? I went back into exploration
+          mode. END OF CYCLE 1.
+          <br /><br />
+          👩🏻‍💻 CYCLE 2 start: this really only lasted a few hours, and was the
+          moment in which I really started feeling myself going through these 3
+          cycles. I thought, these resources for coding really need to be all in
+          one place, and maybe everyone can access them. So I decided to make a
+          PROJECT. (thats cycle 3 and will discuss next)
+        </p>
+      </div>
+    </div>
+
+    <section class="cycle2conclusion">
+      <p>The explore cycle would generally only last for a few hours or maximum 1 to 2 days depending on how long
+        you spend doing this, and how burnt out you let yourself get from CYCLE 1.
+        <br>
+        <br>
+        All of these new sources of input can get you inspired and ready for CYCLE 3. CYCLE 3 must start after CYCLE 2
+        has resulted in a good idea, otherwise you can move back to CYCLE 1. However, if you have completed CYCLE 2
+        correctly, you will have material for CYCLE 3 every time.
+      </p>
+    </section>
+
+    <!-- CREATE SECTION START -->
+    <div id="create" class="sectiontopdiv" id="firstsection">
+      <div class="h2div">
+        <h2>CYCLE 3</h2>
+      </div>
+      <div class="description">
+        <h3>create</h3>
+        <p>
+          This cycle is about
+          creating something or making a project.
+        </p>
+      </div>
+    </div>
+    <section class="cycle3">
+      <p>
+        After the explore phase, you have hopefully encountered an idea for your CYCLE 3 project.
+        <br>
+        <br>
+        This idea may have come from seeing a problem you would like to solve, or something fun that you have seen. I
+        have been inspired to make a project by various sources, maybe a challenge on front-end mentor, realizing my mom
+        needed a new website, or one of the assigned projects on freeCodeCamp. Whether or not you are a creative person,
+        there are plenty of resources to get inspired and make a project.
+        <br>
+        <br>
+        But if you still haven't figured out an idea for a project, below is a great chatGPT prompt!
+      </p>
+    </section>
+
+    <div class="examplediv">
+      <div class="exampledivcontent exampledivcontentgpt dropheading">
+        <img class="downarrow" src="downarrow.svg" alt="arrow svg">
+        <h4>chatGPT project generator prompt</h4>
+        <img class="downarrow" src="downarrow.svg" alt="arrow svg">
+      </div>
+
+      <div class="drop dropdivgpt">
+        <div id="dropdownoutline" class="outline-text">
+          <div id="dropdownintro" class="after-intro-text">
+            <p>
+              “Hey, I am learning Javascript, I am just a beginner, recently I have learned about objects, for loops,
+              while loops, I can mostly just solve 8kyu problems on codewars.
+              <br>//say your level
+              <br>
+              <br>
+              I am interested in cats, League of Legends, dragons, and Harry Potter
+              <br>// say your interests
+              <br>
+              <br>
+              can you give me (insert number) project ideas to practice my skills in JS?“
+              <br>
+              // ask the question with number of ideas
+            </p>
+          </div>
+        </div>
+        <div class="spiraldiv">
+          <img class="spiralsvg" src="spiral.svg" alt="spiral svg">
+        </div>
+        <p>
+          Response:
+          <br>
+          <br>
+          That's great that you're learning JavaScript and making progress in problem solving. As for project ideas,
+          here are a few that are related to your interests and can help you practice your JS skills:
+          <br>
+          <br>
+        </p>
+        <ol>
+          <li>Cat Clicker: Create a webpage with pictures of different cats. When a user clicks on a cat's picture,
+            increment a counter for that cat. Display the number of clicks for each cat. This will help you practice
+            handling events and manipulating the DOM.</li>
+          <li>League of Legends Character Database: Create an object for each character in the game with properties like
+            'name', 'role', 'abilities', etc. Then, create functions to sort and filter characters based on these
+            properties. This can help you practice using objects and arrays.</li>
+          <li>
+            Dragon Game: This could be a simple text-based game where the player has a dragon that they can train and
+            care for. Actions the player takes could affect the dragon's stats (like 'strength' or 'happiness'), and
+            those stats could affect the outcomes of events. This project would be a good exercise in using objects and
+            control flow.
+          </li>
+          <li>
+            Harry Potter Quiz: This could be a quiz with multiple choice questions about the Harry Potter series. For
+            each question, the player must choose the correct answer from four options. At the end of the quiz, show the
+            player their score. This will give you practice with arrays, DOM manipulation, and event handling.
+          </li>
+          <li>
+            Sorting Hat: Based on a series of preferences or personality test, sort a user into a Hogwarts House. You
+            could ask the user a series of questions and then use their answers to determine their House. This will help
+            you practice with forms, objects, and control flow.
+          </li>
+          <li>A simple League of Legends API client: Using Riot Games API (official League of Legends API), you can
+            fetch data about champions, items, matches and more. Create a simple user interface to display the data.
+            This can help you learn about how to work with APIs, asynchronous programming, and data manipulation.</li>
+        </ol>
+        <br>
+        <p>
+          Remember, the goal of these projects is to learn and practice, so don't worry about making them perfect. Start
+          small, and as you get more comfortable with JavaScript, you can add more features to your projects. Good luck!
+        </p>
+      </div>
+    </div>
+
+    <section class="cycle3conclusion">
+      <p>
+        Very lovely response from chatGPT as you can see. This way, even if you haven't figured out a project on your
+        own and you want to get into CYCLE 3 you can!
+        <br>
+        <br>
+        Once you are finished with your project you can move back to CYCLE 1 and learn more fundamentals and concepts.
+        <br>
+        <br>
+        Don't be afraid to switch learning resources if something is not clicking with you, and make things that you are
+        passionate about. If I am doing something boring I can barely concentrate for 30 minutes, if I am passionate I
+        can concentrate for many hours straight!
+        <br><br>
+        Happy learning!
+      </p>
+
+    </section>
+
+
   </main>
+  <!-- RESOURCE SECTION START -->
+  <div id="resources" class="sectiontopdiv">
+    <div class="h2div">
+      <h2 id="resourceh2">RESOURCES</h2>
+    </div>
+    <div class="description">
+      <p class="resourcep">
+        If you're stuck and need to find resources for any cycle, check out 
+        my other webpage that has a bunch of <a class="resourcea" href="https://github.com/elliezub/Free-Coding-Resources" target="_blank">free resources</a>!
+      </p>
+    </div>
+  </div>
+  <div class="iframediv"> 
+  <iframe src="https://elliezub.github.io/Free-Coding-Resources/"></iframe>
+  </div>
+  <footer>
+
+  </footer>
   <script type="module" src="/main.js"></script>
 </body>
 

@@ -1,20 +1,24 @@
-// const dropbtn = document.querySelector(".dropdownbutton");
-const dropdiv = document.querySelector(".dropdowndiv");
-const dropdiv2 = document.querySelector('.dropdowndiv2');
-const dropdiv3 = document.querySelector('.dropdowndiv3');
 
-const dropbtn = document.querySelector('.dropdownbutton');
-const dropbtn2 = document.querySelector('.dropdownbutton2');
-const dropbtn3 =document.querySelector('.dropdownbutton3')
+const dropdivhtml = document.querySelector('.dropdivhtml');
+const contenthtml = document.querySelector('.exampledivcontenthtml')
 
-dropbtn.addEventListener('click', () => {
-    dropdiv.classList.toggle('active')
+contenthtml.addEventListener('click', () => {
+    dropdivhtml.classList.toggle('active');
 })
 
-dropbtn2.addEventListener('click', () => {
-    dropdiv2.classList.toggle('active')
+const dropdivjs = document.querySelector('.dropdivjs');
+const contentjs = document.querySelector(".exampledivcontentjs");
+
+contentjs.addEventListener('click', () => {
+    dropdivjs.classList.toggle('active');
 })
 
-dropbtn3.addEventListener('click', () => {
-    dropdiv3.classList.toggle('active')
+const dropdivgpt =document.querySelector('.dropdivgpt');
+const contentgpt = document.querySelector(".exampledivcontentgpt");
+
+contentgpt.addEventListener('click', () => {
+    dropdivgpt.classList.toggle('active');
 })
+
+
+//end of dropdown examples
