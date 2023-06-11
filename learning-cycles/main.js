@@ -22,3 +22,9 @@ contentgpt.addEventListener('click', () => {
 
 
 //end of dropdown examples
+
+const toTop = document.querySelector("#totop");
+
+window.onscroll = () => toTop.style.display = window.scrollY > 20 ? 'block' : 'none';
+
+toTop.onclick = () => window.scrollTo(0,0);

@@ -19,10 +19,31 @@ body {
   background-size: 20px 20px;
   background-position: center;
 }
-
-main {
-
+/* scroll down button to top */
+#totop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(134, 54, 247);
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2.5px solid black; 
+  box-shadow: 1.5px 1.5px black;
+  transition: .3s ease-in-out;
 }
+
+#totop:hover {
+  transform: translate(1.5px, 1.5px) scale(.98);
+  box-shadow: 0 0 black;
+}
+
 
 h1 {
   font-size: 6rem;
