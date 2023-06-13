@@ -20,11 +20,8 @@ body {
   background-position: center;
 }
 /* scroll down button to top */
-#totop {
-  display: none;
+.roundbtn {
   position: fixed;
-  bottom: 20px;
-  right: 30px;
   width: 50px;
   height: 50px;
   z-index: 99;
@@ -39,12 +36,128 @@ body {
   transition: .3s ease-in-out;
 }
 
-#totop:hover {
+#darktoggle {
+  position:absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:7px;
+}
+
+#totop {
+  bottom: 20px;
+  right: 30px;
+  display: none;
+}
+
+.roundbtn:hover {
   transform: translate(1.5px, 1.5px) scale(.98);
   box-shadow: 0 0 black;
 }
 
+.toggleimg {
+  width: 35px;
+}
 
+.moonimg {
+  display: none;
+}
+
+/* DARK MODE */
+body.dark {
+  background: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+    rgb(0, 0, 0);
+  background-size: 20px 20px;
+}
+
+body.dark .moonimg {
+  display: block;
+}
+
+body.dark .sunimg {
+  display: none;
+}
+
+body.dark .navbutton {
+  border: 2.5px solid rgb(255, 255, 255);
+  background-color: rgb(54, 247, 70);
+  box-shadow: 5px 5px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+body.dark .navbutton a {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+body.dark .navbutton:hover {
+  transform: translate(5px, 5px) scale(.98);
+  box-shadow: 0 0 rgb(255, 255, 255);
+}
+
+body.dark section {
+  border: 2.5px solid rgb(255, 255, 255);
+  background-color: rgb(54, 247, 70);
+  box-shadow: 10px 10px rgb(255, 255, 255);
+  color: black;
+  font-weight: 600;
+}
+
+body.dark h2 {
+  color: rgb(54, 247, 70);
+  text-shadow:4px 4px rgb(255, 255, 255);
+}
+
+body.dark .after-intro-text {
+  color: white;
+  background-color: black;
+  
+}
+
+body.dark .after-text {
+  background-color: black;
+  border: 2.5px solid white;
+  color: white;
+}
+
+body.dark .creativevisual {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+body.dark .outline-text2 {
+  border: 2.5px solid white;
+}
+
+body.dark .imgtxtdiv {
+  color: white;
+}
+
+body.dark #george {
+  color: white;
+}
+
+body.dark .description p {
+  color: white;
+}
+
+body.dark .description a {
+  color:rgb(54, 247, 70);
+}
+
+body.dark footer {
+  color: white;
+}
+
+body.dark iframe {
+  border: none;
+  box-shadow: 10px 10px white;
+}
+
+/* DARK MODE END */
 h1 {
   font-size: 6rem;
   text-align: center;
