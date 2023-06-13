@@ -20,13 +20,13 @@
     </button>
     <!-- to top button -->
     <button id="totop" class="roundbtn" title="Go to top">
-      <i class="fa-solid fa-chevron-up fa-xl" style="color: #ffffff"></i>
+      <i class="fa-solid fa-chevron-up fa-2xl"></i>
     </button>
     <header>
       <h1>Learning Cycles</h1>
       <nav>
         <ul>
-          <li class="navbutton"><a href="#intro">Intro</a></li>
+          <li class="navbutton intronavbtn"><a href="#intro">Intro</a></li>
           <li class="navbutton" id="structuretab">
             <a href="#structure">1. Structure</a>
           </li>
@@ -36,7 +36,7 @@
           <li class="navbutton" id="createtab">
             <a href="#create">3. Create</a>
           </li>
-          <li class="navbutton" id="resourcetab">
+          <li class="navbutton resourcesnavbtn" id="resourcetab">
             <a href="#resources">Resources</a>
           </li>
         </ul>
@@ -47,21 +47,19 @@
         <h4>1. Intro</h4>
         <!-- consider line here -->
         <br />
-        <p>
+        <p  class="ptext">
           Learning isn't a skill often explicitly taught in school. So, people
           often think, "I'm just not smart enough," or "I can't remember things
           as well as that person - they must be gifted." And hey, I'm not going
           to lie, there's some truth to that. Factors like your educational
           background, your upbringing, how confident you are, and even a natural
-          inclination towards certain topics can play a big part. But I truly
-          believe there's a way for all of us to boost our productivity. It's
-          all about understanding your personal learning cycles, especially when
-          you're learning something big and new, like a language or coding.
+          inclination towards certain topics can play a big role in your ability to learn. But I truly believe there's a way for everyone to boost their productivity when learning something new. It's
+          all about understanding your personal learning cycles, especially when you're immersing yourself in expansive fields of knowledge, such as language acquisition or programming.
         </p>
       </section>
       <div class="outline-text">
         <div class="after-intro-text">
-          <p>
+          <p class="ptext">
             Most people can relate to the feeling of being hyper-fixated on a
             topic, diving into it, learning a bunch, but then getting burnt out.
             That's when those Twitter gurus tell you it's about consistency and
@@ -74,23 +72,24 @@
       <section class="discovery-section">
         <h4>2. Discovery</h4>
         <br />
-        <p>
-          The concept of having a personal learning cycle definitely exists, but
+        <p class="ptext">
+          The theory of having a learning cycle definitely exists (if you're interested in that you can simply google "learning cycle"), but
           I only figured out mine after I began learning Mandarin and coding. I
           routinely get people telling me "you must be a fast learner!" or
           asking questions like "how do you plan your studies?". It got me
           thinking - what am I doing differently? So I decided to share my
           process.
+          <br>
+          <br>
+          *disclaimer: I can't guarentee this will work for everyone, but it's what works best for me 😄
         </p>
       </section>
 
       <!-- Consider change of style for this additional info -->
       <div class="outline-text">
         <div class="after-intro-text">
-          <p>
-            With no experience learning Mandarin and only after learning for a
-            about a year I had achieved a relatively high level of fluency
-            compared to my peers, why? what am I doing differently that other
+          <p class="ptext">
+            With no previous experience learning Mandarin, and after studying for only about a year, I achieved a relatively high level of fluency compared to my peers. But why? what am I doing differently that other
             people are not? same with coding, although I'm not sure how my speed
             compares to others, I still would like to share my process. Even if
             it helps just one other person I would be happy. 😄
@@ -100,7 +99,7 @@
       <section class="process-section">
         <h4>3. Process</h4>
         <br />
-        <p>
+        <p class="ptext">
           So here's the gist: I go through three main cycles when studying.
           Being aware of which cycle I'm in at any given moment has helped me
           stay productive without burning out. But keep in mind, for this
@@ -108,9 +107,13 @@
           about. If it works for subjects you don't like as much, that's great,
           but no guarantees!
         </p>
-        <div class="animation"></div>
       </section>
 
+      <div class="animation">
+      
+<img id="darkgif" class="cyclegif" src="chart.gif" alt="chart showing the cycles">
+<img id="lightgif" class="cyclegif" src="light.gif" alt="chart showing the cycles">
+      </div>
       <!-- CYCLE 1 START -->
       <div class="sectiontopdiv" id="structure">
         <div class="h2div">
@@ -119,19 +122,15 @@
         <div class="description">
           <h3>structure</h3>
           <p>
-            This cycle refers to the time where a person is learning in a
-            structured way.
+            This cycle is all about learning through a clear-cut, structured path.
           </p>
         </div>
       </div>
       <section class="cycle1">
-        <p>
-          Many developers can understand this cycle by thinking about learning
-          on a platform like freeCodeCamp, Scrimba, or Codacademy. In regard to
+        <p class="ptext">
+          If you're a developer, think of the times you've spent learning on platforms like freeCodeCamp, Scrimba, or Codecademy. In regard to
           learning a language, this could be attending a language course, or
-          following some kind of predeterimined learning path, like a textbook.
-          During this process you will be introduced to fundemental concepts
-          essential to the topic you are learning about.
+          following some kind of predeterimined learning path, like in a textbook. At this point, you will be getting your head around the fundamental concepts that are crucial to the subject you're learning.
         </p>
       </section>
 
@@ -142,11 +141,17 @@
           <img class="downarrow" src="downarrow.svg" alt="arrow svg" />
         </div>
         <div class="drop dropdivhtml">
-          <p>
+          <p class="ptext">
             👩🏻‍💻 When I was doing the FCC responsive web design certification I
             really fell in loving with coding (at least I thought that's what I
             was doing with HTML and CSS 😆) During this time, I was following
             the specific tasks and assigments they gave me.
+            <br>
+            <br>
+            This structure acted as a sort of roadmap. I never felt lost or overwhelmed because I knew exactly where I was and what I was supposed to do next. The concrete tasks provided me with clear goals, and achieving them gave me a sense of accomplishment and that my motivation.
+            <br>
+            <br>
+            This is essentially what the 'Structure' phase in the learning cycle is about. It's a guided, step-by-step journey where you're progressively introduced to core principles. It's a controlled environment where you learn, practice, make mistakes, and improve. But just like anything, after a while, things can start to feel a bit repetitive and you may find youself getting bored or burnt out.
           </p>
         </div>
       </div>
@@ -172,17 +177,14 @@
         </div> -->
       <section class="cycle1 conclusion">
         <!-- conclusion of cycle 1 -->
-        <p>
-          This process is very simple, and the first time you are in the
-          structure cycle you should be able to spend quite a while in it,
-          depending on how many hours you spend a day learning you could be here
+        <p class="ptext">
+          This phase is pretty straightforward, and when you're new to the subject, you'll probably hang out here for a good while.
+          Depending on how many hours you spend a day learning you could be here
           for a few days up to a few weeks.
           <br />
           <br />
           How do you know when to move on to the next cycle? well, when you are
-          feeling bored and totally demotivated. Feeling like your productivity
-          is totally gone. You know you still like the topic but you have been
-          met with a sense of burnout.
+          feeling bored and totally demotivated. Feeling like your productivity has really decreased.
           <br />
           <br />
           Then you move onto CYCLE 2
@@ -202,25 +204,24 @@
         </div>
       </div>
       <section class="cycle2">
-        <p>
+        <p class="ptext">
           Imagine you have been in cycle 1 studying JavaScript for a week and
-          feel totally tired. You must need a break, it will be quite difficult
-          to regain motivation and energy from that passion of doing something
-          you enjoy if you continue doing the very thing that has burnt you out.
-          This method is related to a psychological concept called the ‘puppy
-          mind’.
+          feel totally tired. Trying to reignite your motivation and energy from the very thing that has burned you out can seem like an uphill battle.
+          This is where understanding the concept of the 'puppy mind' can help.
           <br /><br />
         </p>
         <!-- set link to puppy mind -->
-        <p>
+        <p class="ptext">
           The "puppy mind" describes the tendency for the mind to get easily
           distracted and jump from one thing to another, much like a playful
           puppy. This can lead to difficulty in focusing on one task for an
           extended period of time.
           <br /><br />
-          people mostly agree that we need to train/discipline the puppy mind,
+          People mostly agree that we need to train/discipline the puppy mind,
           and while I agree, there are some situations (like in cycle 2) that it
           might be beneficial to let your puppy mind run rampant.
+         
+         
         </p>
       </section>
 
@@ -263,45 +264,37 @@
           <!-- <div class="dividerdiv">
           <img class="dividersvg" src="divider.svg" alt="purple divider">
           </div> -->
-          <p>
-            👩🏻‍💻 So, when I first started learning JavaScript I was using
-            FreeCodeCamp, It was quite alright at first but got pretty
-            confusing, and although I was very motivated doing that at first I
-            started getting really tired. END OF CYCLE 1
+          <p class="ptext">
+            👩🏻‍💻 When I first started learning JavaScript I was using
+            FreeCodeCamp. At first, it was exciting. I was grasping new concepts and I was on a roll for a while. But after a while, things got pretty confusing for me and my motivation was clearly disappearing. This signaled the end of CYCLE 1. 
             <br /><br />
-            👩🏻‍💻 Then I started researcing a bunch of free resources which led me
-            to jsdares, W3Schools, and scrimba, I just let myself explore
-            everthing. js dares was fun, got a better feeling for JS, completed
-            some lessons on W3schools, and finally got to scrimba. which was
-            great!! END OF CYCLE 2
+            👩🏻‍💻 Embracing my 'puppy mind', I decided it was time to unleash my curiosity. I started researcing a bunch of free resources which led me
+            to jsdares, W3Schools, and Scrimba,  I allowed myself to explore, not fixating on one source or one thing but checking out everything that caught my interest (related to coding). I had fun with jsdares, completed
+            some exercises on W3schools, and eventually discovered Scrimba, which was a great find! And that marked the end of CYCLE 2.
             <br /><br />
-            👩🏻‍💻 BACK TO CYCLE 1, as I said, in the beginning you might not get to
-            3 right away, I started on scrimba which was great. I completed the
-            majority of the intro to JS course and felt motivated the whole time
-            BUT then I started getting demotivated when they switched teachers
-            at the very end of the course. What to do? I went back into
-            exploration mode. END OF CYCLE 1.
+            👩🏻‍💻 And then, I found myself back in CYCLE 1. In the beginning you might not get to
+            CYCLE 3 right away. With Scrimba, I found a structured learning path that was a perfect fit. I managed to complete most of the Introduction to JS course.
+            But, motivation started to dip again when the course switched teachers at the end of the course. This signaled the end of CYCLE 1.
             <br /><br />
-            👩🏻‍💻 CYCLE 2 start: this really only lasted a few hours, and was the
+            👩🏻‍💻 CYCLE 2 started again, but it really only lasted a few hours, and was the
             moment in which I really started feeling myself going through these
-            3 cycles. I thought, these resources for coding really need to be
-            all in one place, and maybe everyone can access them. So I decided
-            to make a PROJECT. (thats cycle 3 and will discuss next)
+            3 cycles. 
+            During this phase I felt really inspired. 
+            I realized how scattered and fragmented the resources for learning coding were. Wouldn't it be great if all of the best resources were all in one place, accessible to everyone? So I decided
+            to make a project! That signaled the end of CYCLE 2 and leading us to CYCLE 3.
           </p>
         </div>
       </div>
 
       <section class="cycle2conclusion">
-        <p>
+        <p class="ptext">
           The explore cycle would generally only last for a few hours or maximum
-          1 to 2 days depending on how long you spend doing this, and how burnt
-          out you let yourself get from CYCLE 1.
+          1 to 2 days depending on your learning schedule, and how burnt out you let yourself get from CYCLE 1.
           <br />
           <br />
           All of these new sources of input can get you inspired and ready for
-          CYCLE 3. CYCLE 3 must start after CYCLE 2 has resulted in a good idea,
-          otherwise you can move back to CYCLE 1. However, if you have completed
-          CYCLE 2 correctly, you will have material for CYCLE 3 every time.
+          CYCLE 3. Ideally CYCLE 3 should start after CYCLE 2 has resulted in a good idea,
+          otherwise feel free to move back to CYCLE 1. But trust me, if you've done CYCLE 2 right, you'll be ready for CYCLE 3 every single time.
         </p>
       </section>
 
@@ -312,20 +305,18 @@
         </div>
         <div class="description">
           <h3>create</h3>
-          <p>This cycle is about creating something or making a project.</p>
+          <p>This is where your ideas come to life through projects.</p>
         </div>
       </div>
       <section class="cycle3">
-        <p>
-          After the explore phase, you have hopefully encountered an idea for
-          your CYCLE 3 project.
+        <p class="ptext">
+          After the exploration phase, hopefully, you have come up with an idea for your CYCLE 3 project.
           <br />
           <br />
-          This idea may have come from seeing a problem you would like to solve,
-          or something fun that you have seen. I have been inspired to make a
-          project by various sources, maybe a challenge on front-end mentor,
+          The idea for a project could surface from realizing a problem that needs solving or drawing inspiration from something that piqued your interest. I have been inspired to make a
+          project from all sorts of places, like a challenge on front-end mentor,
           realizing my mom needed a new website, or one of the assigned projects
-          on freeCodeCamp. Whether or not you are a creative person, there are
+          on freeCodeCamp. It doesn't matter if you think you're a creative person or not, there are
           plenty of resources to get inspired and make a project.
           <br />
           <br />
@@ -344,7 +335,7 @@
         <div class="drop dropdivgpt">
           <div id="dropdownoutline" class="outline-text jsoutline">
             <div id="dropdownintro" class="after-intro-text javascripttext">
-              <p>
+              <p class="ptext">
                 “Hey, I am learning Javascript, I am just a beginner, recently I
                 have learned about objects, for loops, while loops, I can mostly
                 just solve 8kyu problems on codewars.
@@ -365,9 +356,8 @@
           </div>
           <div class="spiraldiv">
             <img id="purplespiral" class="spiralsvg" src="spiral.svg" alt="spiral svg" />
-            <img id="greenspiral" class='spiralsvg' src="spiral copy.svg" alt="green spiral svg">
           </div>
-          <p>
+          <p class="ptext">
             Response:
             <br />
             <br />
@@ -421,7 +411,7 @@
             </li>
           </ol>
           <br />
-          <p>
+          <p class="ptext">
             Remember, the goal of these projects is to learn and practice, so
             don't worry about making them perfect. Start small, and as you get
             more comfortable with JavaScript, you can add more features to your
@@ -431,20 +421,19 @@
       </div>
 
       <section class="cycle3conclusion">
-        <p>
+        <p class="ptext">
           Very lovely response from chatGPT as you can see. This way, even if
           you haven't figured out a project on your own and you want to get into
           CYCLE 3 you can!
           <br />
           <br />
           Once you are finished with your project you can move back to CYCLE 1
-          and learn more fundamentals and concepts.
+          and learn more fundamentals and new concepts.
           <br />
           <br />
           Don't be afraid to switch learning resources if something is not
           clicking with you, and make things that you are passionate about. If I
-          am doing something boring I can barely concentrate for 30 minutes, if
-          I am passionate I can concentrate for many hours straight!
+          am doing something boring I can barely concentrate for 30 minutes, but if I'm passionate, I can go for hours on end!
           <br /><br />
           Happy learning!
         </p>
@@ -472,6 +461,20 @@
       <iframe src="https://elliezub.github.io/Free-Coding-Resources/"></iframe>
     </div>
     <footer>
+      <div id="icon-div">
+        <a href="https://github.com/elliezub" target="_blank">
+          <i id="github" class="fa-brands fa-github fa-xl"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/elliezubrowski"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin fa-xl"></i>
+        </a>
+        <a href="https://twitter.com/elliezub" target="_blank">
+          <i class="fa-brands fa-twitter fa-xl"></i>
+        </a>
+        </div>
       <p>Designed & Built by Ellie Zubrowski</p>
     </footer>
     <script src="main.js"></script>
