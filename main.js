@@ -36,6 +36,8 @@ darkModeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark');
 })
 
+//end of dark mode toggle
+
 //resize to top button
 
 const changeChevronSize = () => {
