@@ -376,7 +376,7 @@ p {
 .drop {
   display: none; 
   margin:  0 15px 15px 15px;
-  /* change display to none toggle on click */
+
 }
 
 .downarrow {
@@ -401,14 +401,12 @@ p {
   max-width: 900px;
   padding: 20px;
   margin: 0 auto 50px auto;
-  /* perhaps change box-shadow based on section */
   box-shadow: inset #e3defc 0 0 0 5px, 
   inset #b89aff 0 0 0 1px, 
   inset #d1b1ff 0 0 0 10px, 
   inset #C149D6 0 0 0 16px, 
   inset #610CD8 0 0 0 21px;
-  /* add some kind of show inside to 
-  look like its going inside of the page */
+
 }
 
 .exampledivcontent {
@@ -428,15 +426,12 @@ p {
   justify-content: center;
 }
 
-/* cycle 1 content */
-
 
 /* cycle 2 content */
 .creativevisual {
   width:360px;
   border-radius: 20px;
   border: 2px solid black;
-  /* box-shadow: 5px 5px black; */
 }
 
 .imgtxtdiv {
