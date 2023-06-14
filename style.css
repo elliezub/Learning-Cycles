@@ -307,7 +307,6 @@ a {
 h2 {
   font-size: 6rem;
   text-shadow:4px 4px black;
-  padding-right: 10px;
   min-width: 392px;
 }
 
@@ -558,9 +557,21 @@ footer {
 }
 
 @media (max-width: 580px) {
-  #darktoggle {
-    display: none;
+  .roundbtn {
+    width: 35px;
+    height: 35px;
   }
+
+  #darktoggle {
+    top: 5px;
+    right: 9px;
+    padding-left: 6.5px;
+  }
+
+  .toggleimg {
+    width: 25px;
+  }
+
 
   .ptext {
     font-size: 1rem;

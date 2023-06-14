@@ -35,3 +35,22 @@ const darkModeToggle = document.querySelector('#darktoggle');
 darkModeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark');
 })
+
+//resize to top button
+
+const changeChevronSize = () => {
+
+  const chevron = document.querySelector('.fa-chevron-up')
+
+  if (window.innerWidth < 580) {
+    chevron.classList.add('fa-xl');
+    chevron.classList.remove('fa-2xl');
+  } else {
+    chevron.classList.add('fa-2xl');
+    chevron.classList.remove('fa-xl');
+  }
+}
+
+changeChevronSize();
+
+window.addEventListener('resize', changeChevronSize)
