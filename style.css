@@ -51,13 +51,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left:7px;
+  
 }
 
 #totop {
   bottom: 20px;
   right: 30px;
   display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .roundbtn:hover {
@@ -565,7 +567,6 @@ footer {
   #darktoggle {
     top: 5px;
     right: 9px;
-    padding-left: 6.5px;
   }
 
   .toggleimg {

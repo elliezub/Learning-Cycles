@@ -24,7 +24,7 @@ contentgpt.addEventListener("click", () => {
 const toTop = document.querySelector("#totop");
 
 window.onscroll = () =>
-  (toTop.style.display = window.scrollY > 20 ? "block" : "none");
+  (toTop.style.display = window.scrollY > 20 ? "flex" : "none");
 
 toTop.onclick = () => window.scrollTo(0, 0);
 
