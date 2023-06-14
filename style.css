@@ -226,10 +226,10 @@ body.dark #darkgif {
 }
 
 .cyclegif {
-  max-width: 480px;
-  margin:10px;
+  max-width: 380px;
+  margin:5px;
   border-radius: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #darkgif {
@@ -241,6 +241,10 @@ body.dark #darkgif {
 #lightgif {
   border: 3px solid black;
   box-shadow: 5px 5px black;
+}
+
+#structure {
+  margin-top: 50px;
 }
 
 
@@ -650,6 +654,9 @@ footer {
   }
   .downarrow {
     width: 40px;
+  }
+  #structure {
+    margin-top: 20px;
   }
 }
 
